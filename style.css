@@ -1,0 +1,52 @@
+body {
+  background-color: rgba(0, 0, 0, 0.853);
+  color: #dddddd;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  font-family: "Roboto Mono", monospace;
+}
+
+h3,
+h4 {
+  font-weight: 400;
+}
+
+div button {
+  width: 130px;
+  height: 130px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  background-color: #393e46;
+  font-size: 50px;
+  margin: 5px;
+}
+
+button:hover {
+  filter: brightness(80%);
+}
+
+button:active {
+  transform: translateY(2px);
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.score-boxes {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 18px;
+}
+
+.sign {
+  font-size: 80px;
+}
