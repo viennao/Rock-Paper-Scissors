@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>rock-paper-scissors game</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>ROCK-PAPER-SCISSORS GAME</h1>
+    <h3>The first to score 5 points wins the game</h3>
+    <h4 id="messages">Click above to start!</h4>
+
+    <div class="score-boxes">
+      <div class="score-box">
+        <div class="sign" id="playerWeapon">❔</div>
+        <p class="score" id="playerScore">Player score: 0</p>
+      </div>
+      <div class="score-box">
+        <div class="sign" id="computerWeapon">❔</div>
+        <p class="score" id="computerScore">Computer score: 0</p>
+      </div>
+    </div>
+
+    <div class="btns">
+      <button class="rock"><div>✊</div></button>
+      <button class="paper"><div>🤚</div></button>
+      <button class="scissors"><div>✌</div></button>
+    </div>
+
+    <footer>
+      <p>
+        Copyright ©
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        Vienna
+      </p>
+      <a href="https://github.com/viennao" target="_blank">
+        <img src="github-logo.ico" alt="" />
+      </a>
+    </footer>
+  </body>
+</html>
